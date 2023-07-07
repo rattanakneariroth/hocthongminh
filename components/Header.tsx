@@ -18,7 +18,7 @@ function Header() {
 
             
         </div>
-        <div className='flex font-medium justify-around bg-teal-400 p-3'>
+        <div className='flex font-medium justify-around bg-teal-600 p-3'>
             
                 <ul className='md:flex md:items-center'>
                     <li className='mx-4 text-white'>
