@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Header() {
   return (
-    <nav className='bg-white mt-3 mb-3'>
+    <nav className='bg-white mt-3 '>
         <div className='flex justify-around'>
             <div>
             <Image

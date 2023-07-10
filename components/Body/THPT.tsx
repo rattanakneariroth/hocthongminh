@@ -8,7 +8,7 @@ export default function THPT() {
          <div>
             <h1 className="container mx-36 text-3xl font-extrabold ">Khối THPT</h1>
         </div>
-        <div className=" mx-32 mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center ">
+        <div className="  mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center ">
             <div className="w-64 shadow-lg transform transition duration-500 hover:scale-110 text-center">
                 <Image src={lop10} className="w-full" alt="lop6"/>
                  <div className="p-4">

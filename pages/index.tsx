@@ -4,6 +4,8 @@ import THPT from '@/components/Body/THPT'
 import Header from '@/components/Header'
 import DeThi from '@/components/Body/DeThi'
 import LoiIch from '@/components/Body/LoiIch'
+import Basic from '@/components/Body/Basic'
+import DangkyAds from '@/components/Body/DangkyAds'
 
 
 
@@ -16,6 +18,8 @@ export default function Home() {
       <THPT/>
       <DeThi/>
       <LoiIch/>
+      <Basic/>
+      <DangkyAds/>
       
     </main>
   )
