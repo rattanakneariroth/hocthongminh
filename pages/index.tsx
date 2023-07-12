@@ -6,6 +6,9 @@ import DeThi from '@/components/Body/DeThi'
 import LoiIch from '@/components/Body/LoiIch'
 import Basic from '@/components/Body/Basic'
 import DangkyAds from '@/components/Body/DangkyAds'
+import Footer from '@/components/Footer'
+import Blog from '@/components/Body/Blog'
+import Recommend from '@/components/Body/Recommend'
 
 
 
@@ -20,6 +23,9 @@ export default function Home() {
       <LoiIch/>
       <Basic/>
       <DangkyAds/>
+      <Recommend/>
+      <Blog/>
+      <Footer/>
       
     </main>
   )

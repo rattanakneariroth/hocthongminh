@@ -6,10 +6,10 @@ export default function THPT() {
   return (
     <div>
          <div>
-            <h1 className="container mx-36 text-3xl font-extrabold ">Khối THPT</h1>
+            <h1 className="container mx-36 text-3xl font-extrabold pl-10">Khối THPT</h1>
         </div>
         <div className="  mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center ">
-            <div className="w-64 shadow-lg transform transition duration-500 hover:scale-110 text-center">
+            <div className="w-64 shadow-lg rounded-lg transform transition duration-500 hover:scale-110 text-center">
                 <Image src={lop10} className="w-full" alt="lop6"/>
                  <div className="p-4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem.</p>
@@ -17,7 +17,7 @@ export default function THPT() {
                         Luyện ngay</button>
                 </div>
             </div>
-            <div className="w-64 shadow-lg  transform transition duration-500 hover:scale-110 text-center">
+            <div className="w-64 shadow-lg rounded-lg transform transition duration-500 hover:scale-110 text-center">
                 <Image src={lop11} className="w-full" alt="lop6"/>
                  <div className="p-4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem.</p>
@@ -25,7 +25,7 @@ export default function THPT() {
                     Luyện ngay</button>
                 </div>
             </div>
-            <div className="w-64 shadow-lg transform transition duration-500 hover:scale-110 text-center">
+            <div className="w-64 shadow-lg rounded-lg transform transition duration-500 hover:scale-110 text-center">
                 <Image src={lop12} className="w-full" alt="lop6"/>
                  <div className="p-4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem.</p>

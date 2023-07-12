@@ -17,16 +17,16 @@ export default function DeThi() {
                 <div className="mb-8 text-lg font-normal text-gray-900 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-900 p-5">
                     <p>Tổng hợp mẫu các dạng đề thi đánh giá năng lực dưới dạng trắc nghiệm online của các trường với ngân hàng câu hỏi và đề thi lớn giúp bạn chuẩn bị tốt cho kì thi ĐGNL.</p>
                 </div>
-                <div className="grid grid-cols-3 gap-1 justify-evenly">
-                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2  border-2 border-black hover:border-transparent rounded">
+                <div className="grid grid-cols-3 gap-3 justify-evenly px-16">
+                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-3  border-2 border-black hover:border-transparent rounded">
                     Đề Thi ĐGNL ĐHQG Hà Nội</button>
-                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2  border-2 border-black hover:border-transparent rounded">
+                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-3  border-2 border-black hover:border-transparent rounded">
                     Đề Thi ĐGNL ĐHQG Hồ Chí Minhi</button>
-                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2  border-2 border-black hover:border-transparent rounded">
+                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-3  border-2 border-black hover:border-transparent rounded">
                     Đề thi ĐGNL ĐHSP Hà Nội</button>
-                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2  border-2 border-black hover:border-transparent rounded">
+                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-3  border-2 border-black hover:border-transparent rounded">
                     Đề Thi ĐGTD Bách Khoa</button>
-                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2  border-2 border-black hover:border-transparent rounded">
+                    <button className=" bg-transparent hover:bg-black text-black font-semibold hover:text-white py-3  border-2 border-black hover:border-transparent rounded">
                     Đề Thi ĐGNL Bộ Công An</button>
                 </div>
             
