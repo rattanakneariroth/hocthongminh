@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 export default function Recommend() {
   return (
     <div>
@@ -11,9 +11,11 @@ export default function Recommend() {
     <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
       <blockquote className="rounded-lg bg-gray-100 p-8">
         <div className="flex items-center gap-4">
-          <img
+          <Image
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://hocthongminh.com/images/maianh.svg"
+            width={20}
+            height={20}
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -83,11 +85,14 @@ export default function Recommend() {
 
       <blockquote className="rounded-lg bg-gray-100 p-8">
         <div className="flex items-center gap-4">
-          <img
+        <Image
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://hocthongminh.com/images/maianh.svg"
+            width={20}
+            height={20}
             className="h-16 w-16 rounded-full object-cover"
           />
+
 
           <div>
             <div className="flex justify-center gap-0.5 text-green-500">
@@ -155,11 +160,14 @@ export default function Recommend() {
 
       <blockquote className="rounded-lg bg-gray-100 p-8">
         <div className="flex items-center gap-4">
-          <img
+        <Image
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src="https://hocthongminh.com/images/maianh.svg"
+            width={20}
+            height={20}
             className="h-16 w-16 rounded-full object-cover"
           />
+
 
           <div>
             <div className="flex justify-center gap-0.5 text-green-500">
