@@ -5,12 +5,12 @@ export default function DangkyAds() {
   return (
     <div className="flex justify-center p-16">
         
-            <div className="bg-white flex grid-cols-2 gap-4 border border-black border-solid rounded-2xl px-16 w-[70rem] h-[25rem] py-10">
+            <div className=" bg-white flex grid-cols-2 gap-4 border border-black border-solid rounded-2xl px-16 w-[70rem] h-[25rem] py-10">
                 <div className="">
-                    <div className="flex ">
+                    <div className="flex">
                         <div className="pr-16 font-semibold text-4xl">ĐĂNG KÝ <h1 className="text-teal-600">Tài khoản</h1>
                         </div>
-                        <div className="text-shadow-green-500 text-shadow-2 hover:text-white hover:text-shadow-4 hover:text-shadow-red-500/50 text-9xl transition-[text-shadow,color] duration-1000">Free</div>
+                        <div className="text-shadow-amber-500 text-shadow-1 text-9xl text-amber-200 font-bold">Free</div>
                     </div>
                     <ul className="pb-5">
                         <li className="flex pb-2 font-svn-poppins"><svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.18971 18.0048L0.561523 8.97239L3.50526 6.20109L9.18971 11.7437C13.1688 3.53243 21.9797 1.06905 25.025 0.86377C16.5795 4.80518 11.1184 14.0018 9.18971 18.0048Z" fill="#FFA800"></path></svg>Xem thống kê quá trình luyện tập</li>

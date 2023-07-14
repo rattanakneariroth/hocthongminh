@@ -2,7 +2,7 @@
 export default function Basic() {
   return (
     <div className="bg-[url('https://hocthongminh.com/images/brick-wall.png')]"> 
-        <div className="pb-16">
+        <div className="pb-16 sm:w-64">
             <div className="text-center py-16">
                 <h1 className="font-semibold text-3xl">Nền tảng Học Thông Minh có gì?</h1>
             </div>

@@ -14,7 +14,8 @@ import Recommend from '@/components/Body/Recommend'
 
 export default function Home() {
   return (
-    <main className='bg-teal-50'>
+    
+    <main className='bg-teal-50 overflow-hidden'>
       <Header/>
       <Banner/>
       <THCS/>

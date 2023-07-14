@@ -5,12 +5,12 @@ import lop8 from '../../public/lop-8.webp'
 import lop9 from '../../public/lop-9.webp'
 export default function THCS() {
   return (
-    <div >
+    <div className="">
         <div>
             <h1 className="container mx-36 text-3xl font-extrabold pl-10 ">Khối THCS</h1>
         </div>
-        <div className=" mx-36 mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center">
-            <div className="w-64 shadow-lg rounded-lg  transform transition duration-500 hover:scale-110 text-center " >
+        <div className=" mx-36 mt-5 my-4 grid-cols-4 min:-[700px]:grid-cols-2 gap-4 justify-center flex items-center flex-wrap">
+            <div className="w-64 shadow-lg rounded-lg  transform transition duration-500 hover:scale-110 text-center" >
                 <Image src={lop6} className="w-full" alt="lop6"/>
                  <div className="p-4">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, rem.</p>

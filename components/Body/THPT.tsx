@@ -4,11 +4,11 @@ import lop11 from '../../public/lop-11.webp'
 import lop12 from '../../public/lop-12.webp'
 export default function THPT() {
   return (
-    <div>
+    <div className='py-10'>
          <div>
             <h1 className="container mx-36 text-3xl font-extrabold pl-10">Khối THPT</h1>
         </div>
-        <div className="  mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center ">
+        <div className="  mt-5 my-4 grid-cols-4 gap-4 justify-center flex items-center flex-wrap ">
             <div className="w-64 shadow-lg rounded-lg transform transition duration-500 hover:scale-110 text-center">
                 <Image src={lop10} className="w-full" alt="lop6"/>
                  <div className="p-4">

@@ -34,7 +34,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className="grid grid-cols-3 gap-14 pt-8">
+            <div className="grid grid-cols-3 gap-4 pt-12">
                 <div>
                     <h1 className="underline font-semibold text-xl">Về chúng tôi</h1>
                     <div className="list-none">
@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className="pt-8">
+            <div className="pt-8 px-10">
                 <h1 className="font-medium text-lg">Kết nối với <br />Hocthongminh</h1>
                 
                 <div className="flex">
