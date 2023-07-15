@@ -8,7 +8,7 @@ export default function Recommend() {
     Mọi người nghĩ gì về chúng tôi
     </h2>
 
-    <div className="mx-3 mt-5 my-4 grid-cols-3 gap-4 justify-center flex items-center flex-wrap">
+    <div className="mx-3 mt-5 my-4 grid-cols-3 gap-4 justify-center flex items-center">
       {/* feedback1 */}
       <blockquote className=" block rounded-lg bg-white p-8 shadow-lg ">
         
